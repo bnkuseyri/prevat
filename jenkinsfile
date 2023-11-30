@@ -3,7 +3,7 @@ pipeline {
         stages {
                 stage('Verify branch') {
                         steps {
-                                echo "deneme"
+                                echo $GIT_BRANCH
                         }
                 }
         }
